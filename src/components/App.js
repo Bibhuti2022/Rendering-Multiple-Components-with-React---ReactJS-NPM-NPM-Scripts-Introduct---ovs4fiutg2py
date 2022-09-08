@@ -4,8 +4,8 @@ import '../styles/App.css';
 const App = () => {
   return (
     <div id="main">
-      <h1>Online Educator</h1>
-      <p>This is an online tutorial for edcation</p>
+      <h1 data-ns-test = "project-name">Online Educator</h1>
+      <p data-ns-test = "project-description">This is an online tutorial for edcation</p>
     </div>
   )
 }
